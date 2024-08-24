@@ -10,7 +10,7 @@ public class Main {
         numbers[2] = 3;
         for (int i = 0; i < 3; i++) {
             System.out.print(numbers[i]);
-            if (numbers[i] != 3) {
+            if (i < numbers.length - 1) {
                 System.out.print(", ");
             }
         }
@@ -18,7 +18,7 @@ public class Main {
         float[] numbers2 = {1.57f, 7.654f, 9.986f};
         for (int i = 0; i < 3; i++) {
             System.out.print(numbers2[i]);
-            if (numbers2[i] != 9.986f) {
+            if (i < numbers2.length - 1) {
                 System.out.print(", ");
             }
         }
@@ -26,7 +26,7 @@ public class Main {
         int[] weights = {90, 91, 93, 92, 85, 87, 88, 89, 95, 98, 96, 100};
         for (int i = 0; i < weights.length; i++) {
             System.out.print(weights[i]);
-            if (weights[i] != 100) {
+            if (i < weights.length -1) {
                 System.out.print(", ");
             }
         }
