@@ -8,7 +8,7 @@ public class Main {
         numbers[0] = 1;
         numbers[1] = 2;
         numbers[2] = 3;
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < numbers.length; i++) {
             System.out.print(numbers[i]);
             if (i < numbers.length - 1) {
                 System.out.print(", ");
@@ -16,7 +16,7 @@ public class Main {
         }
         System.out.println();
         float[] numbers2 = {1.57f, 7.654f, 9.986f};
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < numbers2.length; i++) {
             System.out.print(numbers2[i]);
             if (i < numbers2.length - 1) {
                 System.out.print(", ");
@@ -63,7 +63,7 @@ public class Main {
 
         System.out.println("Task 4");
         int[] taskForeNumbers = {1, 2, 3};
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < taskForeNumbers.length; i++) {
             if (taskForeNumbers[i] % 2 != 0) {
                 taskForeNumbers[i] += 1;
             }
